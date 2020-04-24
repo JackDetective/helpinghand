@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+	<link href = "stylesheet.css" rel = "stylesheet" type = "text/css" />
+	<link href = "stylesheet1.css" rel = "stylesheet" type = "text/css" />
+	<style type = "text/css">
+		@font-face {
+			font-family: Aqum; 
+			src: url(font/Aqum.ttf); 
+		}
+		@font-face {
+			font-family: TruthCYR;
+			src: url(font/TruthCYR-Regular.ttf);
+		}
+		body{
+			background-image: url("img/background.jpg");
+			background-size: cover;
+		}
+		.header{
+			width: 100%;
+			height: 70px;
+			background: #ffffff;
+			position: absolute;
+			left: 0;top: 0;
+			box-shadow:0 0 20px #fff;
+		}
+		img{
+			width: 75px;
+			height: 70px;
+			position: absolute
+		}
+		.links{
+			width: 600px;
+			height: 100px;
+			position: absolute;
+			left: 70%;
+		}
+		a{
+			text-decoration: none;
+			position: absolute;
+			font-size: 30px;
+			font-family: TruthCYR;
+			color: #35b96a;
+			text-shadow:0 0 20px #35b96a;
+		}
+		.menu{
+			background: #e1e1e1;
+			width: 100px;
+			height: 943px;
+			box-shadow:0 0 100px #fff;
+			float: left;
+		}
+		.mainmenu{
+			background: #d5d5d5;
+			width: 350px;
+			height: 943px;
+			box-shadow:0 0 100px #fff;
+			left: 5%;
+			display: none;
+		}
+		.chat{
+			width: 80px;
+			height: 80px;
+			margin-left: 10px;
+			margin-top: 180px;
+		}
+		.achievements{
+			width: 80px;
+			height: 80px;
+			margin-left: 10px;
+			margin-top: 380px;
+		}
+		.booking{
+			width: 80px;
+			height: 80px;
+			margin-top: 580px;
+			margin-left: 5px;
+		}
+		.messages{
+			font-family: Aqum;
+			font-size: 20px;
+			color: #ffffff;
+			position: absolute;
+			left: 11%;
+		}
+		.achieves{
+			font-family: Aqum;
+			font-size: 20px;
+			color: #ffffff;
+			position: absolute;
+			left: 8%;
+		}
+		.orders{
+			font-family: Aqum;
+			font-size: 20px;
+			color: #ffffff;
+			position: absolute;
+			left: 9%;
+		}
+		.board{
+			width: 1300px;
+			height: 700px;
+			background: #ffffff;
+			position: absolute;
+			left: 22%;top: 22%;
+			border-radius: 80px;
+		}
+		.achieve{
+			width: 300px;
+			height: 300px;
+			background: #e2e2e2;
+			position: absolute;
+			border-radius: 70px;
+			box-shadow: 0 0 20px #e2e2e2;
+		}
+		.textachieves{
+			background: #d80001;
+			width: 500px;
+			height: 100px;
+			position: absolute;
+			left: 20%;top:10%;
+			border-radius: 40px;
+			box-shadow: 0 0 20px #ffffff;
+		}
+		.text{
+			font-family: Aqum;
+			color: #ffffff;
+			font-size: 40px;
+			text-align: center;
+		}
+		.prizes{
+			height: 120px;
+			position: absolute;
+			left: 25%;top: 10%;
+		}
+		.maintext{
+			font-family: Aqum;
+			color: #d80001;
+			position: absolute;
+			text-align: center;
+			left: 0%;top: 50%;
+		}
+	</style>
+</head>
+<body>
+<div class = "header">
+	<img src = "img/logo.jpg" class = "logo" style="left: 5%" />
+	<img src = "img/settings.png" style="left: 65%" class = "quit" />
+	<img src = "img/profile.png" style="left: 60%"/>
+	<div class = "links">
+		<a href = "history.html" style="left:5%; top: 15%">ИСТОРИЯ</a>
+		<a href = "about.html" style="left: 38%; top: 15%">О НАС</a>
+		<a href = "contacts.html" style="left: 60%; top: 15%">КОНТАКТЫ</a>
+	</div>
+</div>
+<div class = "menu">
+	<img src = "img/messages.png" class = "chat" />
+	<img src = "img/achievements.png" class = "achievements" />
+	<img src = "img/booking.png" class = "booking" />
+</div>
+<div class = "mainmenu">
+	<h2 class = "messages" style = "top: 22%">Чат</h2>
+	<h2 class = "achieves" style = "top: 42%">Достижения</h2>
+	<h2 class = "orders" style = "top: 63%">Заказы</h2>
+</div>
+<div class = "textachieves">
+	<h2 class = "text" >МОИ ДОСТИЖЕНИЯ</h2>
+</div>
+<div class = "board">
+		<div class = "achieve" style = "left: 10%;top: 5%">
+			<img src = "img/goblet.png" class = "prizes" style = "left: 35%" />
+			<h2 class = "maintext">ПОЛУЧИТЬ НАИВЫСШУЮ ОЦЕНКУ 5 РАЗ</h2>
+		</div>
+		<div class = "achieve" style = "left: 40%; top: 5%">
+			<img src = "img/goblet.png" class = "prizes" style = "left: 35%" />
+			<h2 class = "maintext">ПОЛУЧИТЬ НАИВЫСШУЮ ОЦЕНКУ 50 РАЗ</h2>
+		</div>
+		<div class = "achieve" style = "left: 70%; top: 5%">
+			<img src = "img/friends.png" class = "prizes" style = "width: 150px"/>
+			<h2 class = "maintext">ПРИВЕСТИ НА СЕРВИС 2-Х ДРУЗЕЙ</h2>
+		</div>
+		<div class = "achieve" style = "left: 10%;top: 50%">
+			<img src = "img/star.png" class = "prizes" style = "left: 25%; width: 150px" />
+			<h2 class = "maintext">ПОЛЬЗОВАТЬСЯ СЕРВИСОМ 2 НЕДЕЛИ</h2>
+		</div>
+		<div class = "achieve" style = "left: 40%;top: 50%">
+			<img src = "img/okay.png" class = "prizes" style = "left: 25%; width: 150px" />
+			<h2 class = "maintext" style = "left: 5%">ОКАЗАТЬ ПОМОЩЬ<br> 10 РАЗ</h2>
+		</div>
+		<div class = "achieve" style = "left: 70%;top: 50%">
+			<img src = "img/okay.png" class = "prizes" style = "left: 25%; width: 150px" />
+			<h2 class = "maintext">ОКАЗАТЬ ПОМОЩЬ 50 РАЗ</h2>
+		</div>
+</div>
+<script type="text/javascript">
+var messages = document.querySelector(".messages");
+var achievements = document.querySelector(".achieves");
+var booking = document.querySelector(".orders");
+var logotype = document.querySelector(".logo");
+var logout = document.querySelector(".quit");
+var mainmenu = document.querySelector(".mainmenu");
+var menu = document.querySelector(".menu");
+menu.onmouseover = function(){
+	mainmenu.style.display = "block";
+}
+logotype.onclick = function(){
+	document.location.href = "volunteer.html";
+}
+messages.onclick = function(){
+	document.location.href = "chat.html";
+}
+achievements.onclick = function(){
+	document.location.href = "achievements.html";
+}
+booking.onclick = function(){
+	document.location.href = "booking.html";
+}
+logout.onclick = function(){
+	document.location.href = "mainpart.html";
+}
+</script>
+</body>
+</html>
